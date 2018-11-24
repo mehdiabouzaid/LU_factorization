@@ -1,0 +1,25 @@
+\BOOKMARK [0][-]{chapter.1}{L\220alg\350bre lin\351aire de l\220antiquit\351 \340 nos jours}{}% 1
+\BOOKMARK [1][-]{section.1.1}{La naissance de l'alg\350bre lin\351aire}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{La naissance du pivot de Gauss}{chapter.1}% 3
+\BOOKMARK [0][-]{chapter.2}{Analyse math\351matique}{}% 4
+\BOOKMARK [1][-]{section.2.1}{Pr\351sentation du probl\350me}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.2}{\311tude de la m\351thode math\351matique du pivot de Gauss}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.3}{Inverse d'une matrice A}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.4}{Factorisation LU}{chapter.2}% 8
+\BOOKMARK [2][-]{subsection.2.4.1}{Propri\351t\351s sur la d\351composition LU}{section.2.4}% 9
+\BOOKMARK [2][-]{subsection.2.4.2}{Principe de la factorisation LU}{section.2.4}% 10
+\BOOKMARK [2][-]{subsection.2.4.3}{Utilisation de la d\351composition LU}{section.2.4}% 11
+\BOOKMARK [2][-]{subsection.2.4.4}{Algorithmes de r\351solutions}{section.2.4}% 12
+\BOOKMARK [0][-]{chapter.3}{Applications de la r\351solution d'un syst\350me lin\351aire}{}% 13
+\BOOKMARK [1][-]{section.3.1}{Jeux de Tests}{chapter.3}% 14
+\BOOKMARK [2][-]{subsection.3.1.1}{Matrice simple}{section.3.1}% 15
+\BOOKMARK [2][-]{subsection.3.1.2}{Matrice de Wilson}{section.3.1}% 16
+\BOOKMARK [2][-]{subsection.3.1.3}{Matrice de Hilbert}{section.3.1}% 17
+\BOOKMARK [2][-]{subsection.3.1.4}{Matrice complexe 8x8}{section.3.1}% 18
+\BOOKMARK [1][-]{section.3.2}{Explication des programmes}{chapter.3}% 19
+\BOOKMARK [2][-]{subsection.3.2.1}{Programme "mathsfinal.pas" : D\351composition LU}{section.3.2}% 20
+\BOOKMARK [2][-]{subsection.3.2.2}{Programme "EliminationDeGauss.pas" : L'\351limination de Gauss par Pascal}{section.3.2}% 21
+\BOOKMARK [2][-]{subsection.3.2.3}{Programme "GaussN.pas"}{section.3.2}% 22
+\BOOKMARK [0][-]{chapter.4}{Application en physique : Circuits \351l\351ctriques et \351quations lin\351aires}{}% 23
+\BOOKMARK [1][-]{section.4.1}{Pr\351sentation du probl\350me}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.2}{R\351solution}{chapter.4}% 25

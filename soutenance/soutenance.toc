@@ -1,0 +1,12 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {french}
+\beamer@sectionintoc {1}{L'alg\`ebre lin\'eaire de l'antiquit\'e \`a nos jours}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{La naissance de l'alg\`ebre lin\'eaire}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{La m\'ethode de Gauss-Jordan}{4}{0}{1}
+\beamer@sectionintoc {2}{Analyse math\'ematique}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Pr\'esentation du probl\`eme}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{Inverse d'une matrice}{6}{0}{2}
+\beamer@subsectionintoc {2}{3}{Factorisation LU}{7}{0}{2}
+\beamer@sectionintoc {3}{Applications}{8}{0}{3}
+\beamer@subsectionintoc {3}{1}{En math\'ematiques}{8}{0}{3}
+\beamer@subsectionintoc {3}{2}{En physique}{10}{0}{3}

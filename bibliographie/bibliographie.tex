@@ -1,0 +1,88 @@
+\documentclass[a4paper,12pt]{report}
+
+\usepackage[french]{babel}
+\usepackage[french]{varioref}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{mathtools}
+\usepackage{graphicx}
+\usepackage{amssymb,bm}
+\usepackage{tikz,tkz-tab}
+\usepackage{mathtools,bm}
+\usepackage{url}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{amsmath}
+\newenvironment{spmatrix}[1]
+{\def\mysubscript{#1}\mathop\bgroup\begin{pmatrix}}
+	{\end{pmatrix}\egroup_{\textstyle\mathstrut\mysubscript}}
+\renewcommand{\thesection}{\arabic{section}}
+\usepackage{hyperref}
+\usepackage{pdfpages}
+\usepackage[top=2cm,bottom=2cm,left=2cm,right=2cm]{geometry}
+\title{}
+\date{}
+\begin{document}
+	\chapter*{Bibliographie}
+\url{https://fr.wikipedia.org/wiki/D%C3%A9composition_LU/}\\
+\url{http://math.unice.fr/~eyssette/agregext11/LU.pdf}\\
+Une bonne base complète sur la factorisation LU avec des définitions, exemples et
+applications :
+- résoudre un système d'eq linéaires
+- inverser une matrice
+- calculer le déterminant
+Il y a de plus l'explication de son existence, pour toute matrice carrée , et son unicité, si les
+sous matrices d'ordre 1 à n sont inversibles.
+- calcul de la décomposition\\
+
+\url{https://www.maths.univ-evry.fr/pages_perso/valexandre/L3MAN-TP1.pdf}\\
+Cours complet sur la méthode de gauss, avec pivot, sans pivot etc... et expliquant aussi la
+factorisation LU.
+Ce cours relativement complet explique aussi bien les bases matricielles que des méthodes
+de calcul poussées : élimination de Gauss, factorisation LU et applications.
+L’avantage de ce site est l’utilisation d’algorithmes de Doolittle.\\
+
+\url{http://www.ulb.ac.be/di/map/gbonte/calcul/math31_3_3a.pdf}\\
+Factorisation LU
+ll est nécessaire de fixer n valeurs arbitraires
+– termes diagonaux de L →Doolittle
+– termes diagonaux de U →Crout\\
+
+\url{https://moodle.insa-rouen.fr/pluginfile.php/17492/mod_resource/content/5/3-LU.pdf}\\
+Cours de M. Gauzère sur la résolution de systèmes linéaires et la factorisation LU :
+Résolution de systèmes linéaires et factorisation
+Factorisation : A = LU
+Exemple, stratégie de factorisation, transformation de Gauss..
+Grande nouveauté par rapport aux autres sites :
+Le codage de la factorisation LU en Pascal
+Le codage de la factorisation avec Pivot de Gauss PA = LU en Pascal\\
+
+\url{http://gilles.dubois10.free.fr/algebre_lineaire/lu.html}\\
+Nouveauté : application instantanée avec des exemples de matrices et leur matrices L et U +
+Programme Python \\
+
+\url{http://exo7.emath.fr/ficpdf/fic00026.pdf}\\
+Exercices et correction concernant la méthode de Gauss (factorisation LU et de Cholesky).
+Exercices basiques avec correction, permettant donc de vérifier que notre programme pascal
+fonctionne, et d'autre part de mieux appréhender la théorie via des exercices pratiques.Systèmes d’équations de Jean-Pierre Nougier
+Ce livre est très complet et balaye un champ large des systèmes d'équations, de la méthode
+du pivot aux méthodes de décomposition, comme la décomposition LU, pour les systèmes
+linéaires, ainsi que les systèmes non linéaires, mais qui s'éloignent de notre sujet.\\
+
+\url{http://baike.baidu.com/link?
+url=kehVAvpQ9PWQIZJ5KOM2QHkBDz3d3isQqnu0sc9qI2P88xQFX0lpjqeOBloLU4c9G
+b6lMf2B-nZG6DTu4GxCr9U1qIxHWNEtzJEAxroTXIq}
+\url{https://fr.wikipedia.org/wiki/D%C3%A9composition_LU}\\
+Deux sites qui expliquent la définition de décomposition LU en chinois et en français. Ils
+permettent de faire la décomposition sans ordinateur.\\
+
+Livre \underline{Histoire d’algorithmes} de J.L. Chabert, E. Barbin, M. Guillemot et A. Michel-Pajus\\
+Cet ouvrage expose d'un point de vue historique les développements mathématiques qui ont
+abouti aux pratiques algorithmiques contemporaines. La partie sur l’évolution des
+mathématiques pour la résolution des systèmes linaires avec Gauss, Choleski etc. fut très
+intéressante et percutante pour m’aider à la partie historique du rapport.\\
+
+Livre \underline{Méthodes de calcul numérique} - Vol.1 Systèmes d'équations, par Jean-Pierre Nougier. Edition Hermes, 2001\\
+Ce livre est très complet et balaye un champ large des systèmes d'équations, de la méthode du pivot aux méthodes de décomposition, comme la décomposition LU, pour les systèmes linéaires ainsi que pour les systèmes non linéaires, mais qui s'éloignent de notre sujet.
+
+\end{document}
